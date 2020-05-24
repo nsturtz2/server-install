@@ -27,4 +27,7 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get install certbot python3-certbot-apache
+cd /etc/bind
+cp db.127 db.192
+cp db.local db.sturtz.ml
 
